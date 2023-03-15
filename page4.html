@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/pages.css">        
+        <title>Potencias</title>
+    </head>
+    <body>
+        <section class="contenedor">
+            <h1>POTENCIA DE UNA SERIE DE NÚMEROS</h1>
+            <form action="menu.html">
+                <div class="operaciones">
+                    <div class="grupo">
+                        <label for="num1">Serie de Números</label>
+                        <input type="text" id="num1" value="0"/>
+                    </div>
+                </div>
+                <div>
+                <textarea  id="respuesta" rows="1">Respuesta...</textarea>
+            </div>
+                <div class="grupo">
+                    <button type="button" onclick="funcion.potenciaSerie([], [4,3,2,5])">Calcular</button>
+                    <button type="button" onclick="funcion.limpiar()">Limpiar</button>
+                    <button type="submit">Regresar</button>
+                </div>
+            </form>
+        </section>
+         <script src="../calculos/funciones.js">
+         </script>
+    </body>
+</html>

@@ -1,0 +1,86 @@
+body{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("../img/fondo-pagina.gif");
+
+    color: #e8eaf2;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:36px;
+}
+.contenedor{
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+}
+
+h1{
+    color:rgb(255, 98, 70);
+    font-size:50px;
+}
+.grupo{
+    display:flex;
+    justify-content:flex-start;
+    gap:30px;
+    height:30px;
+    margin-bottom: 40px;
+}
+.grupo label, button{
+    width:100%;
+    font-size:20px;
+    font-weight:bold;
+}
+.grupo button{
+   border-radius:10px;
+    margin:2px;
+    color:rgb(247, 98, 98);
+    height: 30px;
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    font-weight:bold;
+    cursor: pointer;
+    transition: .5s ease-in-out;  
+    
+}
+.grupo button:hover{
+ height: 60px;
+ background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("../img/botom.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color:#ffffff;
+}
+.grupo input{
+    display:flex;
+    border-radius: 7px;
+    font-size:25px;
+    padding: 25px;
+    background-color: transparent;
+    backdrop-filter: blur(15px);
+  }
+  
+
+textarea{
+    margin-top:20px;
+    width:100%;
+    border-radius: 15px;
+    padding: 10px;
+    font-size:30px;
+    color:#e8eaf2;
+    font-weight:bold;
+}
+div textarea{
+   background-color: transparent;
+   backdrop-filter: blur(25px);
+   font-family: 'Courier New', Courier, monospace;
+}
+div input{
+    color: #e8eaf2;
+}

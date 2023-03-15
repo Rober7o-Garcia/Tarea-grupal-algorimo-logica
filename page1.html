@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/pages.css">        
+        <title>Suma Perfectos</title>
+    </head>
+    <body>
+        <section class="contenedor">
+            <h1>SUMA DE NÚMEROS PERFECTOS</h1>
+            <form action="menu.html">
+                <div class="operaciones">
+                    <div class="grupo">
+                        <label for="num1">Serie de Números</label>
+                        <input type="text" id="num" value="0"/>
+                    </div>
+                    <div class="grupo">
+                        <label for="num2">Números Perfectos de la Serie</label>
+                        <input type="text" id="num2"/>
+                    </div>
+                </div>
+                <div>
+                <textarea  id="respuesta" rows="1">Respuesta...</textarea>
+            </div>
+                <div class="grupo">
+                    <button type="button" onclick="funcion.sumaPerfectos()">Sumar Números Perfectos</button>
+                    <button type="reset">Limpiar</button>
+                    <button type="submit">Regresar</button>
+                </div>
+            </form>
+        </section>
+   
+         <script src="../calculos/funciones.js">
+         </script>
+     </body>
+</html>

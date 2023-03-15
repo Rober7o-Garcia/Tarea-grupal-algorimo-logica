@@ -1,0 +1,95 @@
+body{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("../img/fondo-login.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color:#fff;
+    font-family:'Franklin Gothic Medium';
+    font-size:16px;
+}
+header .countainer{
+    flex-direction: row;
+    justify-content:space-between;
+    text-align: left;
+}
+header{
+    width: 35%;
+    height: 10%;
+    position: fixed;
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+
+}
+
+h1{
+    color:rgb(71, 252, 255);
+    font-size:38px;
+    text-align: center;
+}
+.opcion{
+    display:block;
+    text-align:center;
+    text-decoration: none;
+    width:350px;
+    height:60px;
+    border-radius:10px;
+    line-height:60px;
+    font-size:25px;
+    color:rgb(255, 255, 255);
+    font-weight:bold;
+    background-color:transparent;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+
+}
+.opcion:hover{
+    height:100px;
+    background-color:rgb(244, 86, 147) ;
+    backdrop-filter: blur(15px);
+    
+}
+div.cont{
+    background-color: transparent;
+    backdrop-filter: blur(200px);
+    width: 350px;
+    height: 350px;
+    display:flex;
+    justify-content: center;
+    align-items: column ;
+    flex-direction:column;
+    gap: 40px;
+    margin-top: 0;
+    border-radius: 30px;
+    margin: 15px;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+}
+.cont:hover{
+    height:400px;
+    width: 360px;
+    background-color:black ;
+    backdrop-filter: blur(15px);
+    
+}
+div.conte{
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    display: flex;
+}
+.conten{
+    display: flex;
+    justify-content: column;
+    padding: 30px;
+    
+    
+}
+#menu .conte{
+    display: flex;
+
+}
